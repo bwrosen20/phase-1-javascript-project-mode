@@ -95,6 +95,25 @@ function submitPlayer(playerObj){
   .then(player=>console.log(player))
 }
 
+const dataOnCard=document.querySelector("#player-form")
+dataOnCard.addEventListener("submit",handleSubmit);
+dataOnCard.addEventListener("submit",()=>{window.scrollTo(0, document.body.scrollHeight)})
+  
+function handleSubmit(e){
+  e.preventDefault()
+  let playerObj={
+    Name:e.target.name.value,
+    imageURL:e.target.image_url.value,
+    CareerHomers:e.target.player_homers.value,
+    CareerHits:e.target.player_hits.value,
+    CareerAverage:e.target.player_average.value,
+    CareerStolenBases:e.target.player_sbs.value,
+    HOF:e.target.hof.value,
+    numberOfLikes:0}
+
+renderOnePlayer(playerObj)
+submitPlayer(playerObj)
+}
 
   
 

@@ -49,7 +49,7 @@ heart.addEventListener('click', ()=>{
     }
 })  
     
-
+card.querySelector('#like').textContent=players.numberOfLikes;
     document.querySelector('#players-list').appendChild(card)
 
     //Initial Render

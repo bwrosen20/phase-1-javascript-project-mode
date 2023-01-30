@@ -47,9 +47,21 @@ heart.addEventListener('click', ()=>{
      
       players.numberOfLikes-=1
     }
-})  
+
     
 card.querySelector('#like').textContent=players.numberOfLikes;
+
+fetch(`http://localhost:3000/players/${players.id}`,{
+    method:'PATCH',
+    headers:{
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(players)
+  })
+  .then(res=>res.json())
+  .then(player=>console.log(player))
+})  
+
     document.querySelector('#players-list').appendChild(card)
 
     //Initial Render

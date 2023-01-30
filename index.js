@@ -36,6 +36,18 @@ card.appendChild(likers[i]);
 let heart=likers[i].querySelector('#glyph') 
 
 heart.addEventListener('click', likeCallback)
+
+heart.addEventListener('click', ()=>{
+  
+  
+    if (heart.innerText===FULL_HEART){
+      
+      players.numberOfLikes+=1}
+    else{
+     
+      players.numberOfLikes-=1
+    }
+})  
     
 
     document.querySelector('#players-list').appendChild(card)

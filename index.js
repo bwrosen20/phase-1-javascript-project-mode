@@ -5,6 +5,8 @@ let i=0;
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
+
+
   
 function renderOnePlayer(players){
     let card=document.createElement('li');
@@ -24,6 +26,16 @@ function renderOnePlayer(players){
     
     
     </div>`
+
+    likers[i]=document.createElement('div');
+  likers[i].innerHTML=  `<h4
+  class="like">Like if he deserves a spot in the Hall!<span class="like-glyph" id="glyph">&#x2661;</span>
+  <span id="like">${players.numberOfLikes}</span>
+</h4>`
+card.appendChild(likers[i]);
+let heart=likers[i].querySelector('#glyph') 
+
+heart.addEventListener('click', likeCallback)
     
 
     document.querySelector('#players-list').appendChild(card)
@@ -46,6 +58,26 @@ function getAllPlayers(){
     i=i+1;
 }
 initialize();
+
+
+//declare callback function for liker
+
+function likeCallback(e) {
+  const heart = e.target;
+      if ( heart.innerText === EMPTY_HEART) {
+        heart.innerText = FULL_HEART;
+        heart.className = "activated-heart";
+       
+      }
+      
+      else {
+        heart.innerText = EMPTY_HEART;
+        heart.className = "";
+      }
+    
+}
+
+
 
 //function will run when form is submitted and post player to JSON
 
@@ -74,4 +106,3 @@ function submitPlayer(playerObj){
 
 
   
-

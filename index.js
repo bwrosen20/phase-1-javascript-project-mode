@@ -1,4 +1,4 @@
-
+addEventListener("DOMContentLoaded",()=> {alert("Try to input a player you think belongs in the hall of fame!")})
 const destinationURL= "http://localhost:3000/players";
 let likers=[];
 let i=0;

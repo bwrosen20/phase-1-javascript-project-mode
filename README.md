@@ -20,4 +20,29 @@ A user can also input information on a player that they wish to be included in t
  
  -The player will be posted to the API and begin acruing votes starting at 0.
 
-<img width="859" alt="image" src="https://user-images.githubusercontent.com/114421657/215603380-775860ed-d788-4c70-ac63-1e48a8fe8d0c.png">
+User Interface:
+
+When the user first opens the website, they will be alerted to the functionality with this message.
+
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/114421657/216102467-a744df83-e9a9-405e-9a1b-603e7bbbb10d.png">
+
+Click "Ok" to proceed to the app.
+
+Welcome! Now you can choose to do one of two things.
+ -Either vote up your favorite players,
+ -or input your own player!
+ 
+ <img width="958" alt="image" src="https://user-images.githubusercontent.com/114421657/216104918-f8935317-edec-4bed-81cd-e470ddc1670a.png">
+
+![Voting Gif](https://user-images.githubusercontent.com/114421657/216107204-701cdb7b-6e4c-42f5-bb3c-14f058c0e69e.gif)
+
+![Submit Gif](https://user-images.githubusercontent.com/114421657/216108874-ea5c0229-9abb-4d88-8ed4-76999cac261f.gif)
+
+
+
+
+
+
+
+
+

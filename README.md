@@ -26,20 +26,22 @@ When the user first opens the website, they will be alerted to the functionality
 
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/114421657/216102467-a744df83-e9a9-405e-9a1b-603e7bbbb10d.png">
 
-Click "Ok" to proceed to the app.
-
-Welcome! Now you can choose to do one of two things.
- -Either vote up your favorite players,
- -or input your own player!
- 
+Click "Ok" to proceed to the app. You will see something similar to what is pictured below.
  <img width="958" alt="image" src="https://user-images.githubusercontent.com/114421657/216104918-f8935317-edec-4bed-81cd-e470ddc1670a.png">
 
+Welcome! Now you can choose to do one of two things.
+ -Either vote up your favorite players
+
 ![Voting Gif](https://user-images.githubusercontent.com/114421657/216107204-701cdb7b-6e4c-42f5-bb3c-14f058c0e69e.gif)
+
+
+
+ -or input your own player!
 
 ![Submit Gif](https://user-images.githubusercontent.com/114421657/216108874-ea5c0229-9abb-4d88-8ed4-76999cac261f.gif)
 
 
-
+After your player is inputed, their vote counter will begin at 0. You can be the first to vote them into the hall!
 
 
 
